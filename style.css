@@ -1,0 +1,326 @@
+@font-face {
+    font-family: "bartle";
+    src: url("Attila\ Sans\ Classic\ Medium.ttf");
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "bartle";
+    color: white;
+    background-color: #111;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+
+
+}
+
+.navb {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.section1 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.section1 h1 {
+    font-size: 62px;
+}
+
+.p {
+
+    margin-top: 40px;
+    margin-left: 60%;
+}
+
+.a {
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 5px
+}
+
+.img1p {
+    font-size: 30px;
+
+}
+
+.hero {
+    margin-top: 30px;
+}
+
+.section2 {
+    margin-top: 70px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero2 {
+    margin-top: 70px;
+}
+
+.a2 {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.section3 {
+    margin-top: 70px;
+}
+
+.section3 h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.hr {
+    /* margin-left: 10%; */
+    /* margin-top: 60px; */
+}
+
+.section3 p {
+    font-size: 40px;
+
+    margin-top: 20px;
+
+    padding: 15px 20px;
+}
+
+.section4 h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.s {
+    width: 80%;
+}
+
+.hero3 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.w0 {
+    margin-right: 10%;
+    width: 0%;
+
+}
+
+.gsap {
+    height: 20px;
+    width: 20px;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 4px;
+    color: white;
+    pointer-events: none;
+
+
+}
+
+.a:hover {
+    cursor: pointer;
+}
+
+.a2:hover {
+    cursor: pointer;
+}
+
+.sec4 {
+    overflow: hidden;
+}
+
+.sec4:hover {
+
+    .s {
+        scale: 1.05;
+        transition: all 1s ease;
+    }
+
+}
+
+.h {
+    overflow: hidden;
+}
+
+.h:hover {
+
+    .a2 {
+        scale: 1.05;
+        transition: all 1s ease;
+    }
+
+}
+
+
+.footer {
+    margin-top: 150px;
+}
+
+.footer h1 {
+    font-size: 50px;
+}
+
+.footer h5 {
+    font-weight: normal;
+    color: #ffffff6b;
+}
+
+.gapp {
+    gap: 20%;
+}
+
+.pag {
+    gap: 40%;
+}
+
+
+
+footer p:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.brad {
+    font-size: 173px;
+    white-space: nowrap;
+}
+
+.arr {
+    width: 50px
+}
+
+.wheel {
+    background-color: white;
+    gap: 20px;
+    padding: 20px 40px;
+    color: white;
+    flex-shrink: 0;
+    display: flex;
+    white-space: nowrap;
+
+}
+
+.wheel2 {
+    display: flex;
+    white-space: nowrap;
+    gap: 20px;
+    background: white;
+
+}
+
+.wheel2 img {
+    width: 80px;
+}
+
+.white {
+    background-color: #fff;
+    color: black;
+    font-size: 60px;
+
+}
+
+.s,
+.a2 {
+    transition: transform 1s ease;
+}
+
+.section10 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    overflow: hidden;
+}
+
+.section10 img {
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.section3 p:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+
+.img1 {
+  
+    perspective: 1000px;
+}
+
+.img1 img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.7s ease, box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+}
+
+
+.section999{
+    margin-left: 40px;
+}
+
+.section999 h1{
+    font-size: 60px;
+    
+}
+
+.n p{
+    font-size: 13px;
+    /* margin-top: 20px; */
+
+}
+.n{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.section999 img{
+    width: 600px;
+}
+
+.ggg{
+    gap:5px
+}
